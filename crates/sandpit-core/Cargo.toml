@@ -1,0 +1,16 @@
+[package]
+name = "sandpit-core"
+description = "Core run model and backend contract for sandpit"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+
+[lints]
+workspace = true
+
+[dependencies]
+async-trait.workspace = true
+humantime-serde.workspace = true
+serde.workspace = true
+thiserror.workspace = true
+toml.workspace = true
