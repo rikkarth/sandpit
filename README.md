@@ -14,8 +14,6 @@ v0 targets Linux with rootless Podman.
 ## Build
 
 ```
-cargo build
-cargo test
-cargo fmt --check
-cargo clippy --all-targets -- -D warnings
+make check    # fmt check, clippy, tests
+make build
 ```

@@ -9,9 +9,10 @@
 
 ## Commands
 
-- `cargo fmt --check`
-- `cargo clippy --all-targets -- -D warnings`
-- `cargo test`
+- `make check` — formatting, clippy and tests. Run it before every commit.
+- `make fmt` — format in place.
+- `make test`, `make lint`, `make build`, `make clean` when you need one step.
+- The Makefile is a thin wrapper over Cargo; no other tooling required.
 
 ## Sandbox safety
 
