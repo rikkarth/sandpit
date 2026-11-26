@@ -29,3 +29,17 @@
 ## Git
 
 - Conventional, atomic commits. Do not push without Ricardo's say-so.
+
+## Agent skills
+
+### Issue tracker
+
+Issues live in GitHub Issues via `gh`. See `docs/agents/issue-tracker.md`.
+
+### Triage labels
+
+Five default roles, label strings equal to their names. See `docs/agents/triage-labels.md`.
+
+### Domain docs
+
+Single-context: `GLOSSARY.md` and `docs/adr/` at the repo root. See `docs/agents/domain.md`.
